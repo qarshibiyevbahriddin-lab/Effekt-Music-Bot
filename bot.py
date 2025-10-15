@@ -1,5 +1,5 @@
 import os
-from telegram import Update
+os.system("apt-get update && apt-get install -y ffmpeg")
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 from pydub import AudioSegment
 from io import BytesIO
