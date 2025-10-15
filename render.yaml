@@ -1,9 +1,2 @@
-services:
-  - type: web
-    name: effekt-music-bot
-    env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python bot.py"
-    envVars:
-      - key: BOT_TOKEN
-        sync: false
+environment:
+  pythonVersion: 3.13.4
